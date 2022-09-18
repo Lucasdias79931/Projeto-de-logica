@@ -19,11 +19,11 @@ int main() {
 	setlocale(LC_ALL,"portuguese");
 	do{
 		system("cls");
-		printf("law-solutions");
 		legislacao_federal();
 		printf("\n\n(1)-Finalizar!\n(2)-Retornar ao menu inicial!\n");
 		scanf("%d",&opcao);
 	}while(opcao==2);
+	
 	system("cls");
 	printf("\nPROGRAMA FINALIZADO!");
 
